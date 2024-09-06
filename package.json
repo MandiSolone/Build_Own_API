@@ -1,0 +1,19 @@
+{
+  "name": "build_own_api",
+  "version": "1.0.0",
+  "description": "Creating an API that queries a database and returns information depending on the data requested ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "isomorphic-fetch": "^3.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "npm": "^10.8.3"
+  },
+  "author": "Mandi Solone",
+  "license": "ISC"
+}
