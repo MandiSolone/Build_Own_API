@@ -9,13 +9,6 @@
     "start": "babel-node --trace-warnings --trace-uncaught --async-stack-traces server.js"
   },
   "dependencies": {
-    "@babel/cli": "^7.25.6",
-    "@babel/core": "^7.25.2",
-    "@babel/node": "^7.25.0",
-    "@babel/plugin-transform-modules-commonjs": "^7.24.8",
-    "@babel/plugin-transform-runtime": "^7.25.4",
-    "@babel/preset-env": "^7.25.4",
-    "babel-node": "^0.0.1-security",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "isomorphic-fetch": "^3.0.0",
@@ -24,5 +17,14 @@
     "npm": "^10.8.3"
   },
   "author": "Mandi Solone",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8",
+    "@babel/plugin-transform-runtime": "^7.25.4",
+    "@babel/preset-env": "^7.25.4",
+    "babel-node": "^0.0.1-security"
+  }
 }
